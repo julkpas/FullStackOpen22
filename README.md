@@ -1,6 +1,8 @@
-# Full Stack Open 22 paikallinen 2
+# Full Stack Open 22
 
-## Otsikko 2
+## Toiminnot
+
+- Ensin tiedosto -> add -> commit -> push -> Sitte myos hakemisto nakyy
 
 ### Hakemistorakenne
 
