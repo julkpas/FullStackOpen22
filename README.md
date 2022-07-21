@@ -1,8 +1,14 @@
-# Otsikko 1
+# Full Stack Open 22
 
 ## Otsikko 2
 
-### Otsikko 3
+### Hakemistorakenne
+
+└───Viikko0
+
+    ├───04_uusi_muistiinpano
+    ├───05_SinglePageApp
+    └───06_Uusi_muistiinpano
 
 **BOLD text**
 
@@ -13,3 +19,4 @@ _Italic text_
 _[komentorivi.txt](https://github.com/julkpas/ot-harjoitustyo/blob/main/laskarit/viikko1/komentorivi.txt)_
 
 _[gitlog.txt](https://github.com/julkpas/ot-harjoitustyo/blob/main/laskarit/viikko1/gitlog.txt)_
+
