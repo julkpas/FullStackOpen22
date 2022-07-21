@@ -1,4 +1,4 @@
-# Otsikko 1
+# Full Stack Open 22
 
 ## Otsikko 2
 
