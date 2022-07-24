@@ -1,0 +1,26 @@
+04.) Tee vastaavanlainen kaavio, joka kuvaa mitä tapahtuu tilanteessa, 
+missä käyttäjä luo uuden muistiinpanon ollessaan sivulla 
+https://studies.cs.helsinki.fi/exampleapp/notes
+, eli kirjoittaa tekstikenttään jotain ja painaa nappia tallenna.
+
+-> https://www.websequencediagrams.com/
+
+title Sekvenssi-kaavio, käyttäjän luodessa muistiinpanon ja\n tallentaessaan sen palvelimelle osoitteessa: https://studies.cs.helsinki.fi/exampleapp/notes
+
+Selain->Palvelin: Selain pyytää sivua notes,  HTTP GET
+Palvelin -->Selain: HTML -koodi selaimelle, koodissa text-box
+Selain->Palvelin: Selain pyytää main.css-tiedostoo, HTTP GET
+Palvelin -->Selain: main.css
+Selain->Palvelin: Selain pyytää main.js-tiedostoo, HTTP GET
+Palvelin -->Selain: main.js
+note left of Selain: Selain alkaa suorittaa js-koodia,\njoka pyytää JSON-datan palvelimelta
+Selain->Palvelin: Selain/JS pyytää data.json-tiedostoo, HTTP GET
+Palvelin -->Selain: data.jsont
+Selain->Palvelin: Sivun boxista tieto tallennetaan  palvelimelle, kunnes palvelin käynnistetään uudelleen,, HTTP POST
+Palvelin-->Selain: Palvelimen vastauksessa selain uudelleen ohjataan
+Selain->Palvelin: Selain pyytää uudestaan sivua notes, HTTP GET
+Palvelin-->Selain: Uudessa sivussa mukana tallennetut muistiinpanot listana
+Selain->Palvelin: Selain pyytää uudestaan main.css-tiedostoo, HTTP GET
+Selain->Palvelin: Selain pyytää uudestaan main.js-tiedostoo, HTTP GET
+Selain->Palvelin: Selain/JS pyytää uudestaan data.json-tiedostoo, HTTP GET
+
