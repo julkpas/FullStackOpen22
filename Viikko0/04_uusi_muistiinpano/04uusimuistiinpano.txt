@@ -17,7 +17,7 @@ Selain->Palvelin: Selain pyytää main.js-tiedostoo, HTTP GET
 Palvelin -->Selain: main.js
 note over of Selain: Selain alkaa suorittaa js-koodia,\njoka pyytää JSON-datan palvelimelta
 Selain->Palvelin: Selain/JS pyytää data.json-tiedostoo, HTTP GET
-Palvelin -->Selain: data.jsont
+Palvelin -->Selain: data.json
 Selain->Palvelin: Sivun boxista tieto tallennetaan  palvelimelle, kunnes palvelin käynnistetään uudelleen,, HTTP POST
 Palvelin-->Selain: Palvelimen vastauksessa selain uudelleen ohjataan
 Selain->Palvelin: Selain pyytää uudestaan sivua notes, HTTP GET
