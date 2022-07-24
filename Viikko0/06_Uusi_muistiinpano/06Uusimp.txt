@@ -1,0 +1,14 @@
+0.6) Uusi muistiinpano
+
+Tee kaavio tilanteesta, jossa käyttäjä luo uuden muistiinpanon single page -versiossa.
+
+Tämä oli osan viimeinen tehtävä ja on aika pushata vastaukset GitHubiin sekä merkata tehdyt tehtävät palautussovellukseen.
+
+
+
+
+title Sekvenssi-kaavio käyttäjän tallentaessa\n uuden muistiinpanon Single Pagessa
+
+note over Selain: Ainoastaan 1 pyyntö palvelimelle tallennettaessa\n uutta muistiinpanoa. HTTP POST. Tieto liikkuu\n selaimen ja palvelimen välillä json-datana.
+Selain->Palvelin: Sivun boxista tieto tallennetaan  palvelimelle, kunnes palvelin käynnistetään uudelleen, HTTP POST.
+note over Selain: Palvelin ei pyydä uudelleen ohjausta\n selaimelta. Sivun lomakkeelta puuttuu\n action- ja method-attribuutit.\n Headerissa ContentType: app/json -tyyppiä.\n Selain pysyy samalla sivulla eikä muita\n pyyntöjä suoriteta.
