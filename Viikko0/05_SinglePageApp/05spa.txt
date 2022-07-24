@@ -1,0 +1,17 @@
+0.5) Single Page App
+
+Tee kaavio tilanteesta, jossa käyttäjä menee selaimella osoitteeseen 
+https://studies.cs.helsinki.fi/exampleapp/spa eli muistiinpanojen Single Page App-versioon
+
+title Sekvenssi-kaavio, käyttäjän mennessä sivulle:\nhttps://studies.cs.helsinki.fi/exampleapp/spa
+Selain->Palvelin: Selain pyytää sivua spa,  HTTP GET
+Palvelin -->Selain: HTML -koodi selaimelle, koodissa text-box
+Selain->Palvelin: Selain pyytää main.css-tiedostoo, HTTP GET
+Palvelin -->Selain: main.css
+Selain->Palvelin: Selain pyytää spa.js-tiedostoo, HTTP GET
+Palvelin -->Selain: spa.js
+note over Selain: Selain alkaa suorittaa js-koodia,\njoka pyytää JSON-datan palvelimelta
+Selain->Palvelin: Selain/JS pyytää data.json-tiedostoo, HTTP GET
+Palvelin -->Selain: data.json
+Selain->Palvelin: Sivun boxista tieto tallennetaan  palvelimelle, kunnes palvelin käynnistetään uudelleen,, HTTP POST
+note over Selain: Palvelin ei pyydä uudelleen ohjausta\n selaimelta. Vain 1 HTTP POST -pyyntö \n osoitteeseen New_note_spa.\n Headerissa CT: app/json -tyyppiä.\n Selain pysyy samalla sivulla eikä muita\n pyyntöjä suoriteta.
