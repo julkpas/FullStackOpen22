@@ -5,7 +5,7 @@
 - Ensin tiedosto -> add -> commit -> push -> Sitte myos hakemisto nakyy
 
 ### Hakemistorakenne
-
+<pre>
 └───Viikko0
     ├───04_uusi_muistiinpano
     ├───05_SinglePageApp
@@ -21,6 +21,7 @@
     	├───public
     	└───src
 
+</pre>
 
 **BOLD text**
 
