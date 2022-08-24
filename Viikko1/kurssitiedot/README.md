@@ -1,6 +1,6 @@
-###Kurssitiedot
+# Kurssitiedot
 
-#Toiminnasta...
+### Toiminnasta...
 
 Sovellus näyttää kurssin eri osioiden mukaiset nimitiedot ja niihin
 liittyvien harjoitusten määrän. Content -nimisen sovelluksen komponentin tehtävä
