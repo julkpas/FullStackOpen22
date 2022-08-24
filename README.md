@@ -6,11 +6,11 @@
 
 ### Hakemistorakenne
 
-└───Viikko0\n
-    ├───04_uusi_muistiinpano\n
-    ├───05_SinglePageApp\n
-    └───06_Uusi_muistiinpano\n
-└───Viikko1\n
+└───Viikko0
+    ├───04_uusi_muistiinpano
+    ├───05_SinglePageApp
+    └───06_Uusi_muistiinpano
+└───Viikko
     ├───anekdootit
     	├───public
     	└───src
