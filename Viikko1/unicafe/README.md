@@ -1,6 +1,6 @@
-### Unicafe
+# Unicafe
 
-# Toiminnasta...
+### Toiminnasta...
 
 Sovelluksen kautta voi antaa palautetta Unicafelle. Palautteen tiedot
 näytetään Statistic -otsikon alla eriteltynä. Annetut palautteet

@@ -7,10 +7,23 @@
 ### Hakemistorakenne
 
 └───Viikko0
-
     ├───04_uusi_muistiinpano
     ├───05_SinglePageApp
     └───06_Uusi_muistiinpano
+└───Viikko1
+    ├───anekdootit
+	├───node_modules
+    	├───public
+    	└───src
+    ├───kurssitiedot
+	├───node_modules
+    	├───public
+    	└───src
+    └───unicafe
+	├───node_modules
+    	├───public
+    	└───src
+
 
 **BOLD text**
 
