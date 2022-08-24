@@ -10,7 +10,7 @@ käynnistyessä. Myös näytettävän anekdootin saamat äänet näytetään ane
 - Äänten alapuolella ovat seuraavan anekdootin näyttävä painike sekä äänestyspainike
 juuri näkyvälle anekdootille.
 - Anekdooteille voi antaa ääniä niitä selatessaan.
-- Näytettäva anekdootti arvotaan randomisti.
+- Näytettävä anekdootti arvotaan randomisti.
 - Eniten ääniä saanut anekdootti näytetään äänestysnppuloiden alla sekä
 sen saamat äänimäärät. 
 
