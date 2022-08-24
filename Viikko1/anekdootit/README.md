@@ -18,6 +18,7 @@ Sivun renderöitymiseen vaikutetaan sivun tilan muutoksella, so. useState(...).
 Alussa luodaan taulukko anekdooteille annettaville äänille. Taulukko alustetaan 0-arvoilla.
 Aina äänestettäessä anekdoottia, sen tila muuttuu ja sivu renderöityy uudelleen. Aina anekdoottia
 äänestettäessä kopioidaan aktiivisen taulukon sisältö väliaikaiseen taulukkoon ja asetetaan
-väliaikainen taulukko useState() käyttämällä tilan muutokseen reagoivaksi taulukoksi.
+väliaikainen taulukko tilan muutoksen generoivaksi taulukoksi -> alkup. tauluuun tilanmuutokseen
+reagoiva useState.
 
 useState täytyy importtaa react -kirjastosta.
