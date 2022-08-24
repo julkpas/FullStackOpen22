@@ -14,7 +14,7 @@ juuri näkyvälle anekdootille.
 - Eniten ääniä saanut anekdootti näytetään äänestysnppuloiden alla sekä
 sen saamat äänimäärät. 
 
-#Sivun renderöitymiseen vaikutetaan sivun tilan muutoksella, so. useState(...).
+Sivun renderöitymiseen vaikutetaan sivun tilan muutoksella, so. useState(...).
 Alussa luodaan taulukko anekdooteille annettaville äänille. Taulukko alustetaan 0-arvoilla.
 Aina äänestettäessä anekdoottia, sen tila muuttuu ja sivu renderöityy uudelleen. Aina anekdoottia
 äänestettäessä kopioidaan aktiivisen taulukon sisältö väliaikaiseen taulukkoon ja asetetaan
