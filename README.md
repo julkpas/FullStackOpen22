@@ -10,7 +10,7 @@
     ├───04_uusi_muistiinpano
     ├───05_SinglePageApp
     └───06_Uusi_muistiinpano
-└───Viikko
+└───Viikko1
     ├───anekdootit
     	├───public
     	└───src
