@@ -1,8 +1,8 @@
-###Anekdootit
+# Anekdootit
 
-#Sovelluksessa on 7 valmiiksi määritettyä anekdoottia. 
+### Sovelluksessa on 7 valmiiksi määritettyä anekdoottia. 
 
-#Ohjelman toiminnasta: 
+### Ohjelman toiminnasta: 
 - Sovellus on Single Page App.
 - Oletusarvoisesti anekdooteista ensimmäinen näytetään käyttäjälle sovelluksen
 käynnistyessä. Myös näytettävän anekdootin saamat äänet näytetään anekdootin alapuolella.
