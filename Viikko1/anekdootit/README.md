@@ -11,7 +11,7 @@ käynnistyessä. Myös näytettävän anekdootin saamat äänet näytetään ane
 juuri näkyvälle anekdootille.
 - Anekdooteille voi antaa ääniä niitä selatessaan.
 - Näytettävä anekdootti arvotaan randomisti.
-- Eniten ääniä saanut anekdootti näytetään äänestysnppuloiden alla sekä
+- Eniten ääniä saanut anekdootti näytetään äänestysnappuloiden alla sekä
 sen saamat äänimäärät. 
 
 Sivun renderöitymiseen vaikutetaan sivun tilan muutoksella, so. useState(...).
