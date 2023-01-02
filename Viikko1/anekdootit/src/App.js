@@ -17,7 +17,6 @@ const Footer = (props) => {
       <p>{props.anecdotes[props.votes.indexOf(Math.max.apply(null,props.votes))]}</p>
       <p>has {Math.max.apply(null,props.votes)}  votes</p>
     </div>
-
   )
 }
 const App = () => {
