@@ -20,6 +20,16 @@
     └───unicafe
     	├───public
     	└───src
+└───Viikko2
+    ├───countries
+    	├───public
+    	└───src
+    ├───puhelinluettelo
+    	├───public
+    	└───src
+    └───kurssitiedot
+    	├───public
+    	└───src  
 
 </pre>
 
